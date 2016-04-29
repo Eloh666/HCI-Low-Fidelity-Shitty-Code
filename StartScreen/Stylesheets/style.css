@@ -1,7 +1,13 @@
+@font-face {
+    font-family: ametist;
+    src: url(Amethyst.ttf);
+}
+
 html{
     height: 100%;
 }
 body {
+    text-align: center;
     position: relative;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -32,7 +38,7 @@ img
     text-align: center;
     margin: auto;
     height: 100px;
-    width: 100px;
+    width: 360px;
 }
 
 .animate
@@ -44,21 +50,35 @@ img
 .action-button
 {
     position: relative;
-    padding: 25px 70px;
+    padding: 36px 36px;
     margin: 0px 30px 30px 0px;
     float: left;
     border-radius: 65px;
-    font-family: 'Pacifico', cursive;
-    font-size: 25px;
-    color: #FFF;
-    text-shadow: 5px 3px 13px rgba(0, 0, 0, 1);
+    font-family: 'ametist', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: white;
     text-decoration: none;
+    line-height: 70px;
 }
 
 .blue
 {
     background-color: #3498DB;
     border-bottom: 5px solid #2980B9;
+}
+
+.white2
+{
+    background-color: ghostwhite;
+    border-bottom: 5px solid darkgrey;
+}
+
+
+.white
+{
+    background-color: transparent;
+    border: 5px solid darkgrey;
 }
 
 .red
@@ -86,14 +106,15 @@ img
     -webkit-transform: translate(0px,5px);
     border-bottom: 1px solid;
     opacity: 0.65;
+    color: white;
 }
 
 .buttons
 {
     display: inline;
     position: relative;
-    left: 670px;
-    top: 520px;
+    left: 270px;
+    top: 420px;
 }
 
 .mini
@@ -106,7 +127,7 @@ img
 
 
 .modal-body, .modal-header {
-    font-family: 'Pacifico', cursive;
+    font-family: 'ametist', cursive;
     text-transform: uppercase;
     color: white;
     text-align: center;
